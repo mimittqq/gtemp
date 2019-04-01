@@ -1,0 +1,38 @@
+{
+  "name": "gtemp",
+  "version": "1.0.0",
+  "description": "to genarate templates by config",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimittqq/gtemp.git"
+  },
+  "bin": {
+    "gtemp": "./bin/index.js"
+  },
+  "keywords": [
+    "node",
+    "commander",
+    "template"
+  ],
+  "author": "mimittqq <332990332@qq.com> (https://github.com/mimittqq)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mimittqq/gtemp/issues"
+  },
+  "homepage": "https://github.com/mimittqq/gtemp#readme",
+  "devDependencies": {
+    "jest": "^24.5.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "fs-extra": "^7.0.1",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  }
+}
